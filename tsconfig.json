@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "module": "esnext",
+    "strict": true,
+    "moduleResolution": "node",
+    "noEmitOnError": true,
+    "allowJs": true,
+    "jsx": "preserve",
+    "isolatedModules": true,
+    "skipLibCheck": true,
+    "baseUrl": ".",
+    "declaration": true,
+    "outDir": "dist",
+    "declarationDir": "dist"
+  },
+}

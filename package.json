@@ -1,0 +1,23 @@
+{
+  "name": "vue-tsc-dts-issue",
+  "version": "1.0.0",
+  "private": true,
+  "engines": {
+    "node": "^v16.13.0",
+    "npm": "use yarn!"
+  },
+  "types": "dist/src/main.d.ts",
+  "module": "dist/main.mjs",
+  "scripts": {
+    "dts": "vue-tsc --declaration --emitDeclarationOnly"
+  },
+  "files": [
+    "dist/*"
+  ],
+  "devDependencies": {
+    "typescript": "4.7.4",
+    "vue": "3.2.37",
+    "vue-tsc": "0.34.1",
+    "vscode-languageserver-protocol": "3.17.2"
+  }
+}
